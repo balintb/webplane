@@ -1,0 +1,23 @@
+{
+  "name": "webplane",
+  "version": "0.0.0",
+  "description": "Pull data from X-Plane and serve to website",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "^4.10.4",
+    "xplane": "^0.0.6",
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "debug": "~2.0.0",
+    "jade": "~1.6.0",
+    "sockjs": "^0.3.11"
+  },
+  "author": "Balint",
+  "license": "MIT"
+}

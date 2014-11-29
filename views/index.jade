@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Your position is:
+  div(class='position')
+    ul
+      li Lat: <span id="lat">Waiting for data...</span>
+      li Lon: <span id="lon"></span>
